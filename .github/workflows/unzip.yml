@@ -1,0 +1,28 @@
+name: Unzip Files
+
+on:
+  push:
+    paths:
+      - '**/*.zip'
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Find and unzip zip files
+        run: |
+          for f in $(find . -name "*.zip"); do
+            echo "Unzipping $f"
+            unzip -o "$f" -d "${f%.zip}"
+          done
+
+      - name: Commit unzipped files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Unzipped files from zip"
+          git push
