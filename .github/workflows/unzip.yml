@@ -25,4 +25,4 @@ jobs:
     git config --local user.name "GitHub Action"
     git add .
     git diff --cached --quiet || git commit -m "Unzipped files from zip"
-    git push || echo "Nothing to push"
+    git push || echo "Nothing to push" to push"
