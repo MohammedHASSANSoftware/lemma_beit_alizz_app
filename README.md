@@ -1,2 +1,0 @@
-# lemma_beit_alizz_app
-lemma_app_final_packag
