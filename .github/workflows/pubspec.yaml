@@ -1,0 +1,23 @@
+name: lemma_app
+description: تطبيق لمة بيت العز - نسخة مبدئية
+publish_to: "none"
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.0.0
+  cloud_firestore: ^4.0.0
+  firebase_auth: ^4.0.0
+  firebase_storage: ^11.0.0
+  firebase_functions: ^4.0.0
+  geolocator: ^9.0.2
+  provider: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
