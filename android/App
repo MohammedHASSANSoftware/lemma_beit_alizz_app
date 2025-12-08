@@ -1,1 +1,30 @@
 
+{
+  "project_info": {
+    "project_number": "1017179470354",
+    "project_id": "house-of-glory-29565",
+    "storage_bucket": "house-of-glory-29565.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017179470354:android:3dc80a2d9dee8b398176cb",
+        "android_client_info": {
+          "package_name": "com.houseofglory.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoLl_Z9GgHFtIsnOaCxgvE8lTag5oW0xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
